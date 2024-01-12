@@ -6,28 +6,49 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-    h1 {
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-size: 40px;
-      text-align: center;
-      ;
+    .head {
+      background-color: antiquewhite;
     }
+
+     h1 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 70px;
+      color: #ff00d4;
+      text-align: center;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    p {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size:30px;
+      color:black;
+      line-height: 2em;
+      width: 40%;
+      margin-right: 20px;
+    }
+
+    img{
+      width: 30%;
+    } 
     </style>
 </head>
 <body>
-  <h1>CILLA'S VIRTUAL ASSISTANT PROFILE</h1>
-  <P>Hi there! My name is Priscilla but I prefer to be called Cilla. 
+  <div class="head">
+    <h1>Cilla's Virtual Assistant Profile</h1>
+  </div>
+  <div class="hero">
+    <P>Hi there! My name is Priscilla but I prefer to be called Cilla. 
     I love tech and systems because I am fascinated about 
     the creative solutions it offers to businesses and their 
     clients. I am working on becoming a web developer so that 
     I can create beautiful virtual storefronts for 
     online businesses to meet and interact with their clients.
   </P>
-  <img src="/images/Pic of Cilla.jpg" alt="A pic of me">
-  <!-- 
-Use CSS to style the elements in your webpage:
-Customise the font family, size, colour, and alignment for headings (h1).
-Style the paragraph (p) with a different font family, size, line height, and colour.
-Adjust the size and alignment of the image (img) using CSS properties -->
+  <img src="images/Pic of Cilla.jpg" alt="A pic of me">
+</div>
 </body>
 </html>

@@ -1,0 +1,30 @@
+/* Header styling */
+.head {
+    background-color: antiquewhite;
+  }
+
+   h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: #ff00d4;
+    text-align: center;
+  }
+  /* Display of p element and img tag using flexbox */
+  .hero {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* Styling the paragraph with font style, color, line height */
+  p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:30px;
+    color:black;
+    line-height: 2em;
+    width: 40%;
+    margin-right: 20px;
+  }
+  /* Styling the image to reduce the size */
+  img{
+    width: 30%;
+  } 
