@@ -26,5 +26,6 @@
   }
   /* Styling the image to reduce the size */
   img{
-    width: 30%;
+    max-width: 100%;
+    width: 1000px;
   } 
